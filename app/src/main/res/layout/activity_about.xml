@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="273dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:text="Call Center :52341"
+        android:textSize="20dp"
+        android:textColor="#5e5e5e"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="245dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="282dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:text="WhatsApp CS : 089674362345"
+        android:textColor="#5e5e5e"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="278dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:text="Email : Smbk.Online.id"
+        android:textColor="#5e5e5e"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="66dp" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="280dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="84dp"
+        android:ems="10"
+        android:text="FAQ"
+        android:textColor="#5e5e5e"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
